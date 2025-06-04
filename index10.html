@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sevgi Zaman Çizelgesi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffe6eb, #fff);
+      overflow-x: hidden;
+    }
+    .heart {
+      position: absolute;
+      color: red;
+      animation: float 5s infinite ease-in;
+      font-size: 24px;
+      opacity: 0.6;
+    }
+    @keyframes float {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-600px) scale(1.5);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body class="font-sans relative">
+
+  <!-- Kalpler -->
+  <div id="hearts-container"></div>
+
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <h1 class="text-4xl font-bold text-center text-pink-600 mb-12">Aşk Zaman Çizelgemiz 💖</h1>
+
+    <!-- Timeline Elemanı -->
+    <div class="space-y-16">
+      <!-- Fotoğraf 1 -->
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto1.jpg" alt="Anı 1" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Bir prenses doğdu</h2>
+          <p class="text-gray-700 mt-2"> Hayatımın anlamı olabileceğini kim bilebilirdi ki.</p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+        <img src="foto2.jpg" alt="Anı 2" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">First Date</h2>
+          <p class="text-gray-700 mt-2">First dateimiz "allah sana 100 tane karı versin" lafı ve ikimizinde heycanı.</p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 3 -->
+      <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto3.jpg" alt="Anı 3" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Birlikte Geçen İlk Tatil</h2>
+          <p class="text-gray-700 mt-2">Uyurken seni çektiğim fotolar olsun yüzmeyi öğretmeye çalışmam olsun tekrarda yapıcağımız bir etkinlik bu.</p>
+        </div>
+      </div>
+
+
+   <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto4.jpg" alt="Anı 1" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Aşkından yanıp tutuştuğum kız</h2>
+          <p class="text-gray-700 mt-2">Nasıl konuşucam daha onu bilmiyom o kadar tatlısın ki anlatamıyorum.</p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+        <img src="foto5.jpg" alt="Anı 2" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Doğum günü kutlaması</h2>
+          <p class="text-gray-700 mt-2">Yine işin içinde yusuf vardı pastayı yapıştırmıştı hatte seni çok seviyorum.</p>
+        </div>
+      </div>
+
+   <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto6.jpg" alt="Anı 1" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Dondurma Yemece </h2>
+          <p class="text-gray-700 mt-2">Avşada mal mla dolaşıyoz eğleniyoz sizinkilerin yanına gidiyoz.</p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+        <img src="foto7.jpg" alt="Anı 2" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Birlikte Maske yapmaca</h2>
+          <p class="text-gray-700 mt-2">Maskelerde iyi hoştu avşada seninle geçirdiğim her gün harikaydı.</p>
+        </div>
+      </div>
+
+
+   <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto8.jpg" alt="Anı 1" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Kahve Date</h2>
+          <p class="text-gray-700 mt-2">Kahve datei sonrası attığımız story </p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+        <img src="foto9.jpg" alt="Anı 2" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Devlerin aşkı büyük olur</h2>
+          <p class="text-gray-700 mt-2"> Barıştığımız gün ve en mutlu günlerimden biri.</p>
+        </div>
+      </div>
+
+   <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto10.jpg" alt="Anı 1" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Aydına gelmem</h2>
+          <p class="text-gray-700 mt-2">Şok olmuştun gelmeme tekrar gelirim ama yüzüm görmek istemiyorsun.</p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+        <img src="foto11.jpg" alt="Anı 2" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Peruk</h2>
+          <p class="text-gray-700 mt-2">Denayın geleneği devam ettirdik.</p>
+        </div>
+      </div>
+
+   <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto12.jpg" alt="Anı 1" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">En güzel fotomuz</h2>
+          <p class="text-gray-700 mt-2">Fotonu güzellik beni ara ara ağlatıyor</p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+        <img src="foto13.jpg" alt="Anı 2" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Son fotomuz</h2>
+          <p class="text-gray-700 mt-2">Sakaryada biraz plansı hazırlandık ama yinede eğlendik.</p>
+        </div>
+      </div>
+
+   <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto14.jpg" alt="Anı 1" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Hayatımda bana en yardımcı olduğun zaman</h2>
+          <p class="text-gray-700 mt-2">Sakatken bana bakmana aşığım bambaşka bir şey bu deli gibi aşığım sana.</p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+        <img src="foto15.jpg" alt="Anı 2" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">Montu Giyip bana küstü /h2>
+          <p class="text-gray-700 mt-2">Montlarım benden çok sana yakışıyo .</p>
+        </div>
+      </div>
+
+   <div class="flex flex-col md:flex-row items-center gap-6">
+        <img src="foto16.jpg" alt="Anı 1" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700"> Mezuniyet Fotosu </h2>
+          <p class="text-gray-700 mt-2">ikimizde çok güzeliz fotoda adete güneş gibisin.</p>
+        </div>
+      </div>
+
+      <!-- Fotoğraf 2 -->
+      <div class="flex flex-col md:flex-row-reverse items-center gap-6">
+        <img src="foto17.jpg" alt="Anı 2" class="w-64 rounded-xl shadow-lg" />
+        <div>
+          <h2 class="text-2xl font-bold text-pink-700">En sevdiğim mezuniyet fotomuz.</h2>
+          <p class="text-gray-700 mt-2"> biraz otistik gibi dursamda fav fotom.</p>
+        </div>
+      </div>
+
+
+      <!-- Daha fazlasını bu şekilde çoğaltabilirsin -->
+    </div>
+  </div>
+
+  <!-- Kalp Animasyonu Scripti -->
+  <script>
+    const container = document.getElementById("hearts-container");
+
+    function createHeart() {
+      const heart = document.createElement("div");
+      heart.classList.add("heart");
+      heart.style.left = Math.random() * 100 + "vw";
+      heart.style.fontSize = (Math.random() * 20 + 10) + "px";
+      heart.innerText = "❤️";
+      container.appendChild(heart);
+
+      setTimeout(() => {
+        heart.remove();
+      }, 5000);
+    }
+
+    setInterval(createHeart, 500);
+  </script>
+</body>
+</html>
